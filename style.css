@@ -17,6 +17,11 @@ img {
 button {
     background-color: #3882F6;
     color: white;
+    border-radius: 0.5em;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    
 }
 
 .header{
@@ -64,6 +69,10 @@ img {
     font-size: 18px;
 }
 
+.hero-button
+button {
+    border: none;
+}
 
 .main {
     background-color: white;
@@ -91,6 +100,7 @@ img {
     color: #1F2937
     padding: 52px;
 }
+
 .info {
     max-width: 200px;
     justify-content: center;
@@ -107,8 +117,25 @@ img {
 
 .call-to-action {
     display: flex;
+    flex: 1;
+    background-color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container{
+    display: flex;
     background-color: #3882F6;
-    color: white;
+    padding: 45px;
+    margin: 100px;
+    gap: 75px;
+    border-radius: 1em;
+}
+
+.call-button
+button {
+    border-color: #F9FAF8;
+    border: 2px solid white;
 }
 
 .footer {
